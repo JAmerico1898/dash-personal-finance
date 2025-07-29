@@ -534,5 +534,6 @@ st.markdown("""
 <div style='text-align: center; color: #666;'>
     <p>💡 <strong>Dashboard de Finanças Pessoais</strong> | Desenvolvido para Educação Financeira</p>
     <p>🎓 Ferramenta interativa para aprendizado de conceitos financeiros</p>
+    <p> Prof. josé Américo</p>
 </div>
 """, unsafe_allow_html=True)

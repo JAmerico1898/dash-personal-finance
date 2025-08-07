@@ -171,13 +171,13 @@ if df is not None:
     
     with col2:
         st.metric(
-            label="💸 Despesas Total",
+            label="💸 Despesa Total",
             value=f"R$ {total_debitos:,.2f}",
             delta=f"-{total_debitos:,.2f}"
         )
     
     with col3:
-        delta_color = "normal" if saldo >= 0 else "inverse"
+        delta_color = "inverse" if saldo >= 0 else "normal"
         st.metric(
             label="💰 Saldo",
             value=f"R$ {saldo:,.2f}",
@@ -534,6 +534,6 @@ st.markdown("""
 <div style='text-align: center; color: #666;'>
     <p>💡 <strong>Dashboard de Finanças Pessoais</strong> | Desenvolvido para Educação Financeira</p>
     <p>🎓 Ferramenta interativa para aprendizado de conceitos financeiros</p>
-    <p> Prof. José Américo</p>
+    <p> Prof. josé Américo</p>
 </div>
 """, unsafe_allow_html=True)
